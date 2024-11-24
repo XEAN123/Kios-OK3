@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="itr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!--navgaition menu-->
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            <span>KIOS OK3</span>
+        </div>
+        <div class="links">
+            <div class="link"><a href="#">HOME</a></div>
+            <div class="link"><a href="#">SHOP</a></div>
+            <div class="link"><a href="#">CONTACT</a></div>
+            <div class="search">
+                <form onsubmit="searchproduct(event)">
+                    <input type="text" name="search" placeholder="search..." />
+                    <button type="submit">search</button>
+                </form>
+            </div>
+
+
+            
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+</nav>
+
+<section>
+    <div class="main-container">
+        <div class="image">
+            <img src="c:\Users\Asus\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\3BFF829DDE3583558708865F6DE7BE37\WhatsApp Image 2024-11-18 at 13.29.31_f172cb61.jpg" alt="">
+        </div>
+        <div class="content">
+            <h1 data-aos="fade-left">
+                Hey i'm
+                <span>Moureen</span>
+            </h1>
+            <div class="typewriter">
+                I'm a 
+                <span class="typewriter-text">Owner of Kios OK3</span>
+                <label for=""></label>
+            </div>
+            <p>I'm here to help you find the best product for your needs.</p>
+            <div class="sosial-links">
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+            <div class="btn">
+                <button>Choose</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--About Section Start-->
+
+<section class="about" id="about">
+    <div class="content">
+        <div class="title"><span>About Product</span></div>
+        <div class="about-details">
+            <div class="left">
+                <img src="c:\Users\Asus\Downloads\KIOS OK3.jpg" alt="">
+            </div>
+            <div class="right">
+                <div class="topic">Our Product is Elegant</div> 
+                <p>Food,Drink,And Stuff</p>
+                <img src="https://wallpaperaccess.com/full/8814537.jpg" alt="">
+                <div class="button">
+                    <button>Make a Purchase </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--My Skill Section Start-->
+<section class="skills" id="skills">
+    <div class="content">
+        <div class="title"><span>The Price</span></div>
+        <div class="skills-details">
+            <div class="text">
+                <div class="topic">
+                    Skills reflects Our Knowledge 
+                </div>
+                <p data-aos="fade-right">This below Product</p>
+                <div class="experience">
+                    <div class="num">10</div>
+                    <div class="exp">
+                        Year Of <br/>
+                        Experience
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">Snack</div>
+                    <div class="per"> 1.000-5.000</div>
+                </div>
+                <div class="box">
+                    <div class="topic">Biscuit</div>
+                    <div class="per">5.000-10.000</div>
+                </div>
+                <div class="box">
+                    <div class="topic">Food</div>
+                    <div class="per">2.500-20.000</div>
+                </div>
+                <div class="box">
+                    <div class="topic">Drink</div>
+                    <div class="per"> 20.000</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--My Services Section Start-->
+<section   class="services" id="services">
+    <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+            <div class="box">
+                <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Devlopment</div>
+            <p>Blablablabla</p>
+            <span>Blablabla</span>
+        </div>
+        <div class="box">
+            <div class="icon">
+                <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Graphic Design</div>
+            <p>Blablablabla</p>
+        </div>
+        <div class="box">
+            <div class="icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Digital Marketing</div>
+            <p>Blablablabla</p>
+        </div>
+        <div class="box">
+            <div class="icon">
+                <i class="fas fa-android"></i>
+            </div>
+            <div class="topic">Icon Design</div>
+            <p>Blablablabla</p>
+        </div>
+        <div class="box">
+            <div class="icon">
+                <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Photography</div>
+            <p>Blablablabla</p>
+         </div>
+        <div class="box">
+        <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+        </div>
+        <div class="topic">Apps Devlopment</div>
+        <p>Blablablabla</p>
+         </div>
+    </div>
+</div>
+</section>
+
+<!--Contact Me section Start-->
+<section class="Contact" id="Contact">
+    <div class="content">
+        <div class="title">
+            <span>Contact Me</span>
+        </div>
+        <div class="text">
+            <div class="topic">Have Any Problem</div>
+            <p>Just call or Chat with this No WA : 085399432737</p>
+            <div class="button">
+                <button>Let's Call</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer Section Start-->
+<footer>
+    <div class="text">
+        <span>
+            Created By
+            <a href="#">Procoder09</a> | &#169; 2024 All Right Reserved</span>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({offset:0})
+</script>
+<script src=""
+</body>
+</html>
